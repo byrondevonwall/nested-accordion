@@ -1,0 +1,82 @@
+/*****************************************************
+element selectors
+******************************************************/
+*{
+  box-sizing: border-box;
+}
+body {
+  font-family: "lato", "verdana", sans-serif;
+  font-weight: 300;
+  color: dodgerblue;
+  /*background-color: snow;*/
+}
+
+p {
+  display: inline-block;
+}
+
+i:hover {
+  transform: rotateZ(45deg);
+  color: dodgerblue;
+}
+
+/*****************************************************
+class selectors
+******************************************************/
+.accordionBody {
+  margin: 5% 12% 0 12%;
+}
+
+.fa{
+  color: lightgray;
+}
+
+.firstSection {
+  border-bottom: 1px solid lightgray;
+  font-size: 2.5em;
+  line-height: 2em;
+  margin: 0 0 3% 0;
+}
+
+/*.sec1text {
+  display: none;
+}*/
+
+.secondSection {
+  border-bottom: 1px solid lightgray;
+  font-size: 2.5em;
+  line-height: 2em;
+  margin: 0 0 3% 0;
+}
+
+
+.thirdSection {
+  border-bottom: 1px solid lightgray;
+  font-size: 2.5em;
+  line-height: 2em;
+  margin: 0 0 3% 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*****************************************************
+
+******************************************************/
