@@ -15,10 +15,10 @@ p {
   display: inline-block;
 }
 
-i:hover {
+/*i:hover {
   transform: rotateZ(45deg);
   color: dodgerblue;
-}
+}*/
 
 /*****************************************************
 class selectors
@@ -54,7 +54,13 @@ class selectors
 }
 
 .content {
-  color: lightgray;
+  color: gray;
+  margin: 0 7%;
+}
+
+.fa-arrow-right:hover {
+  transform: rotateZ(45deg);
+  color: dodgerblue;
 }
 
 
