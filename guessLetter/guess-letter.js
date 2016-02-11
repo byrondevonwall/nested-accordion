@@ -16,20 +16,35 @@ var word = ["c", "a", "t", "s"];
 var userLetters = ["_", "_", "_", "_"];
 
 
-
+// Write a function called guessLetter that will: Take one argument, the guessed letter. Iterate through the word letters and see if the guessed letter is in there.
 function guessLetter(guess){
   if (guess.length != 1){
     console.log("Please guess a single letter!");
   }
   for (g = 0; g < word.length; g++){
     if (word[g] === guess){
+      //If the guessed letter matches a word letter, change the guessed letters array to reflect that.
       userLetters[g] = guess;
+     //When it's done iterating, it should log the current guessed letters ('F__') and congratulate the user if they found a new letter.
+      console.log("congratulations!  you've found a new letter: " + userLetters[g] + "!");
     }
     }
   }
+    // It should also figure out if there are any more letters that need to be guessed, and if not, it should congratulate the user for winning the game.
+  if (word === userLetters){
+    console.log("Congratulations, you've guessd the word, " + userLetters + " and won the game!");
+  }
+  else(
+    console.log("There are still more letters to guess, try again!")
+  )
 
 guessLetter("d");
 guessLetter("x");
 guessLetter("b");
 guessLetter("g");
+guessLetter("c");
+guessLetter("a");
+guessLetter("t");
+guessLetter("s");
 console.log(userLetters);
+console.log(word);
