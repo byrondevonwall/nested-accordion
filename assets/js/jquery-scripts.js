@@ -28,7 +28,7 @@ $(".thirdSection").click(function(){
   $(".sec1text").addClass("hidden");
   $("#arrow-1").removeClass("rotate");
 });
-
+// comment
 
 
 // $( "*", document.body ).click(function( event ) {
