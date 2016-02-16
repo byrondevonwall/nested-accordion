@@ -31,19 +31,19 @@ function guessLetter(guess){
     }
   }
     // It should also figure out if there are any more letters that need to be guessed, and if not, it should congratulate the user for winning the game.
-  if (word === userLetters){
+  if (word == userLetters){
     console.log("Congratulations, you've guessd the word, " + userLetters + " and won the game!");
   }
   else(
     console.log("There are still more letters to guess, try again!")
   )
-
+guessLetter("a");
 guessLetter("d");
 guessLetter("x");
 guessLetter("b");
 guessLetter("g");
 guessLetter("c");
-guessLetter("a");
+
 guessLetter("t");
 guessLetter("s");
 console.log(userLetters);

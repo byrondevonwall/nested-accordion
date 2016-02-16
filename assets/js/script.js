@@ -16,7 +16,7 @@ var secThreeContent = document.querySelector(".sec3text");
 var arrowThree = document.querySelector("#arrow-3")
 var toggle3 = false;
 
-
+//MOUSEOVERS AND MOUSEOUTS TO CHANGE THE ARROW STATES!!!  DO IT FOOL111
 
 //section one click event
 showSecOne.addEventListener("click", function addText1(){
