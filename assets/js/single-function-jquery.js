@@ -1,9 +1,9 @@
-var headings = $(".accordionBody").get(); //this should get all the heading elements.
-console.log(headings);
-​
-$(".accordionBody").click(function(e){
+// var headings = $(".accordionBody").get(); //this should get all the heading elements.
+// console.log(headings);
+// ​
+$(".wrapper").click(function(e){
   e.preventDefault();
-  console.log($(this).children().first().next());//this prints out the article tag im looking for.
-  $(this).children().first().next().toggleClass("hidden");
-​
+  console.log($(this.child).find(".content"));//this prints out the article tag im looking for.
+  $(this).find(".content").toggleClass("hidden");
+  $(this).find(".fa-arrow-right").toggleClass("rotate")
 });
