@@ -58,6 +58,19 @@ class selectors
   margin: 0 7%;
 }
 
+.hidden {
+  display: none;
+}
+
+.showing{
+  display: inline-block;
+}
+
+.rotate{
+  transform: rotateZ(90deg);
+  color: dodgerblue;
+}
+
 .fa-arrow-right:hover {
   transform: rotateZ(45deg);
   color: dodgerblue;
